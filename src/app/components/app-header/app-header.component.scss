@@ -1,0 +1,27 @@
+.menu{
+    height: 100%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-item{
+    width: 280px;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    color: coral;
+    background-color: darkred;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .menu-item:hover{
+    background-color: moccasin;
+  }
+  .active{
+    // background-color: moccasin;
+  }

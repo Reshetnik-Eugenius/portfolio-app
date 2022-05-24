@@ -1,0 +1,19 @@
+<div class="menu">
+  <div  [class.active]="isMainPageVisible"
+        class="menu-item"
+        (click)="showMainPage()"
+        >Главная
+  </div>
+  
+  <div  [class.active]="isMainPageVisible"
+        class="menu-item"
+        (click)="showAboutUsPage()"
+        >О нас
+  </div>
+  
+  <div  [class.active]="isMainPageVisible"
+        class="menu-item"
+        (click)="showContactPage()"
+        >Контакты
+  </div>
+</div>
